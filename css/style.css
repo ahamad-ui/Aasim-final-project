@@ -268,13 +268,15 @@ header {
     }
 
     .circle-img {
-        left: -72px;
-        bottom: -20px;
-        width: 50%;
+        left: -20px;
+        bottom: -19px;
+        width: 40%;
     }
 
     .main-img {
         max-width: 90%;
+        position: relative;
+        right: -15px;
     }
 }
 
