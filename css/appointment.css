@@ -90,6 +90,9 @@ header {
 .nav-links:hover::after {
     width: 100%;
 }
+.nav-collapse>ul:hover  .afridi{
+    color:  #7BC043;
+}
 
 /* Button */
 .primary-btn {
@@ -99,6 +102,10 @@ header {
     padding: 12px 20px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.primary-btn:hover{
+    background-color: #333;
 }
 
 /* Hamburger Toggler */

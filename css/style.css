@@ -210,6 +210,8 @@ header {
     margin: 20px 0;
 }
 
+
+
 .primary-btn {
     background-color: #7BC043;
     color: #fff;
@@ -243,6 +245,16 @@ header {
     border-radius: 50%;
     border: 6px solid #fff;
 }
+
+@media (max-width: 768px) {
+    .hero-content .title1 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+}
+
+
 
 /* Partner Section */
 .patnr-sec {
@@ -326,7 +338,7 @@ header {
     bottom: 0;
     right: 0;
     max-height: 222px;
-    max-width: 222px;
+    max-width: 168px;
 }
 
 
@@ -372,6 +384,8 @@ header {
     font-weight: 600;
 }
 
+
+
 .primary-btn {
     display: inline-block;
     padding: 12px 24px;
@@ -400,7 +414,20 @@ header {
     .small-imgs {
         flex-direction: row;
     }
+}
+    @media (max-width: 557px) {
+     .banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .main-heading {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 76px;
 
+}
+   
 }
 
 /* Our Services Section */
@@ -481,17 +508,6 @@ header {
     text-decoration: none;
     font-weight: 500;
 }
-
-/* .primary-btn {
-    background-color: #65b741;
-    color: #fff;
-    padding: 14px 28px;
-    border-radius: 30px;
-    display: inline-block;
-    font-weight: 500;
-    text-decoration: none;
-    margin-top: 40px;
-} */
 
 .btn-wrapper {
     margin-top: 40px;
@@ -765,6 +781,7 @@ header {
 
 .testimonial-card {
     background: #fff;
+    min-height: 307px;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -802,6 +819,13 @@ header {
     color: #65b741;
     font-size: 18px;
     letter-spacing: 2px;
+}
+
+@media screen and ( max-width :576px ) {
+    .testimonial-title {
+    text-align: center;
+    margin-top: -65px;
+}
 }
 
 /* Our Blog Section */
@@ -869,6 +893,12 @@ header {
 .splide__pagination {
     justify-content: center;
     margin-top: 20px;
+}
+
+@media screen and ( max-width :557px ) {
+    .recent-blogs {
+        margin-top: -150px;
+    }
 }
 
 /* Footer Section */
@@ -981,6 +1011,10 @@ header {
     .col-20 {
         flex: 1 1 100%;
         text-align: center;
+    }
+
+    .footer{
+        margin-top: -40px;
     }
 
     .newsletter-form {
