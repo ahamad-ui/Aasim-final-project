@@ -69,6 +69,7 @@ header {
     color: #333;
     font-weight: 500;
     transition: color 0.3s ease;
+    text-wrap: nowrap;
 }
 
 .nav-links::after {
@@ -102,6 +103,7 @@ header {
     padding: 12px 20px;
     font-weight: bold;
     border-radius: 5px;
+    text-wrap: nowrap;
 }
 
 /* Hamburger Toggler */
@@ -220,6 +222,7 @@ header {
     border-radius: 6px;
     display: inline-block;
     font-weight: 600;
+    text-wrap: nowrap;
 }
 
 .banner-img-wrapper {
@@ -338,7 +341,7 @@ header {
     bottom: 0;
     right: 0;
     max-height: 222px;
-    max-width: 168px;
+    max-width: 222px;
 }
 
 
@@ -395,6 +398,7 @@ header {
     font-weight: bold;
     text-decoration: none;
     margin-top: 10px;
+    text-wrap: nowrap;
 }
 
 /* Responsive */
@@ -413,6 +417,7 @@ header {
 
     .small-imgs {
         flex-direction: row;
+        /* max-width: 168px; */
     }
 }
     @media (max-width: 557px) {
@@ -420,7 +425,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+ .small-imgs {
+        /* flex-direction: row; */
+        max-width: 168px;
+    }
   .main-heading {
     font-size: 30px;
     font-weight: 400;
@@ -580,6 +591,7 @@ header {
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
+    text-wrap: nowrap;
 }
 
 .hfm-image {
