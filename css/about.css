@@ -279,6 +279,23 @@ header {
         flex-direction: column;
     }
 
+    @media screen and ( max-width : 557px ) {
+    .about-para{
+    font-size: 17px;
+}
+   
+ .small-imgs {
+        /* flex-direction: row; */
+        max-width: 168px;
+    }
+}
+
+    @media screen and ( max-width : 375px ) {
+    .about-para-p {
+    font-size: 23px;
+}
+}
+
     .col-50 {
         max-width: 100%;
     }
@@ -297,6 +314,7 @@ header {
 .our-team {
     padding: 80px 0;
     background-color: #f9f9f9;
+    margin-top: -100px;
 }
 
 .team-title {
