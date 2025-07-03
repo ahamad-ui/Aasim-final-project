@@ -428,6 +428,16 @@ header {
 
 }
 
+  .about-para {
+    font-size: 17px;
+}
+
+@media screen and ( max-width : 375px ) {
+    .about-para-p {
+    font-size: 23px;
+}
+}
+
  .small-imgs {
         /* flex-direction: row; */
         max-width: 168px;
@@ -446,7 +456,7 @@ header {
 .services-sec {
     padding: 80px 0;
     background-color: #f8f8f8;
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .title {
