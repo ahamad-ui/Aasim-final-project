@@ -106,8 +106,13 @@ header {
   text-wrap: nowrap;
 }
 
+.primary-btn:hover{
+  background-color: black;
+}
+
 /* Hamburger Toggler */
 .nav-toggler {
+
   display: none;
   flex-direction: column;
   cursor: pointer;
