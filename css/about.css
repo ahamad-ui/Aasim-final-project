@@ -20,6 +20,7 @@ html {
 body {
     font-family: "Poppins";
     background-color: #f3f3f3;
+    overflow-x: hidden;
 }
 
 header {
@@ -404,6 +405,7 @@ header {
     }
 }
 
+  /* our reviews section */
 
 .testimonials {
     padding: 80px 0;
@@ -423,9 +425,10 @@ header {
     background: #fff;
     border-radius: 10px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     text-align: left;
+    min-height: 307px;
 }
 
 .testimonial-header {
@@ -451,7 +454,7 @@ header {
 .testimonial-text {
     color: #555;
     font-size: 14px;
-    margin-bottom: 10px;
+    /* margin-bottom: 30px; */
 }
 
 .stars {
@@ -461,12 +464,20 @@ header {
 }
 
 
+@media screen and ( max-width :576px ) {
+    .testimonial-title {
+    text-align: center;
+    margin-top: -65px;
+}
+}
+
+
 
 
 
 
 .patnr-sec {
-    margin-top: 65px;
+    margin-top: 5px;
 }
 
 /* Responsive */

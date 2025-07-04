@@ -428,6 +428,10 @@ header {
 
 }
 
+.hero-content{
+    text-align: center;
+}
+
   .about-para {
     font-size: 17px;
 }
@@ -834,7 +838,7 @@ header {
 .testimonial-text {
     color: #555;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .stars {
@@ -970,6 +974,8 @@ header {
     padding: 0;
     margin: 0;
 }
+
+
 
 .footer-box ul li {
     margin-bottom: 8px;

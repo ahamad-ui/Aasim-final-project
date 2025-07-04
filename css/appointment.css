@@ -20,6 +20,7 @@ html {
 body {
     font-family: "Poppins";
     background-color: #f3f3f3;
+    overflow-x: hidden;
 }
 
 .container {
@@ -303,7 +304,7 @@ css Copy Edit .bg-wrapper {
 
 
 .form-section {
-    padding: 50px;
+    /* padding: 50px; */
     background-color: #f8f9fa;
 }
 
@@ -348,6 +349,7 @@ input[type="tel"],
 input[type="date"],
 input[type="file"] {
     max-width: 100%;
+    /* width: 100%; */
     flex: 1;
     padding: 12px 15px;
     font-size: 16px;
@@ -449,8 +451,8 @@ input[type="radio"] {
 
 .country-code {
     padding: 10px;
-    background-color: white;
-    border-right: 1px solid #e2e8f0;
+    /* background-color: white; */
+    /* border-right: 1px solid #e2e8f0; */
     color: black;
 }
 
@@ -537,6 +539,13 @@ input[type="radio"] {
 
 
 /* Responsive */
+
+
+@media (max-width: 1250px) {
+   .phone-input{
+    display: block;
+   }
+    }
 @media (max-width: 1025px) {
     .form-wrapper {
         flex-direction: column;
@@ -551,6 +560,7 @@ input[type="radio"] {
 
     .form-col {
         padding-right: 0;
+        margin-top: 15px;
     }
 }
 
@@ -561,19 +571,30 @@ input[type="radio"] {
         line-height: 30px;
     }
 
+    
+.col-content p{
+    padding-left: 10px;
+}
+
+  .phone-number{
+    width: 100%;
+  }
+
     .content p {
         font-size: 16px;
     }
 
     .head-1 h2 {
-        font-size: 25px;
+        font-size: 24px;
         line-height: 30px;
+        padding-left: 10px;
     }
 
     .cool-button {
         margin: auto;
         width: 120px;
         height: 40px;
+        margin-top: 15px;
     }
 
     .bg1, .bg2, .bg3 {
