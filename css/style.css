@@ -270,6 +270,7 @@ header {
 /* Partner Section */
 .patnr-sec {
     margin-top: 65px;
+    background-color: #f9f9f9;
 }
 
 /* Responsive */
@@ -315,7 +316,7 @@ header {
 .about-sec {
     /* padding: 100px 0; */
     background-color: #f9f9f9;
-    margin-top: 65px;
+    margin-top: -120px;
 }
 
 .title {
