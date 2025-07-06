@@ -91,7 +91,7 @@ header {
 .nav-links:hover::after {
   width: 100%;
 }
-.nav-collapse>ul:hover  .afridi{
+.nav-links:hover{
     color:  #7BC043;
 }
 
@@ -158,6 +158,13 @@ header {
 
   .nav-toggler {
     display: flex;
+  }
+
+  @media screen and ( max-width : 768px ) {
+    .nav-logo img {
+        max-width: 150px;
+        max-height: 150px;
+    }
   }
 
   /* Hamburger animation */
@@ -391,6 +398,7 @@ header {
   font-size: 14px;
   font-weight: 700;
   color: #414146;
+  margin-top: 7px;
 }
 
 .doc-action {
@@ -421,12 +429,18 @@ span {
   display: flex;
   align-items: center;
   gap: 6px;
+  margin-top: 10px;
+}
+
+.thumb{
+   background-color:  #61ce70;;
 }
 
 .doc-action button {
   background-color: #4CAF50;
   color: white;
   border: none;
+  margin-top: 10px;
   padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
@@ -600,6 +614,7 @@ span {
 }
 
 
+
 @media (max-width: 1200px) {
   .left-column {
     width: 100%;
@@ -611,12 +626,21 @@ span {
     .doc-action{
       text-wrap: nowrap;
     }
+
+    .link{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 10px;
+    }
 }
 
 @media (max-width: 576px) {
   .left-column {
    text-align: center;
   }
+
 }
 
 
@@ -624,7 +648,7 @@ span {
   .right-column {
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 65px;
     width: 100%;
     align-items: center;
   }

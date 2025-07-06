@@ -91,9 +91,11 @@ header {
     width: 100%;
 }
 
-.nav-collapse>ul:hover  .afridi{
+.nav-links:hover {
     color:  #7BC043;
 }
+
+
 
 /* Button */
 .primary-btn {
@@ -242,11 +244,17 @@ header {
 .circle-img {
     position: absolute;
     left: -183px;
-    bottom: 0px;
+    bottom: -9px;
     max-height: 331px;
     max-width: 331px;
     border-radius: 50%;
     border: 6px solid #fff;
+}
+
+@media (max-width: 1024px) {
+    .banner-para{
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -280,10 +288,11 @@ header {
     .col-50 {
         flex: 0 0 100%;
         max-width: 100%;
+        text-align: center;
     }
 
     .circle-img {
-        left: -20px;
+        left: -10px;
         bottom: -19px;
         width: 40%;
     }
@@ -291,20 +300,27 @@ header {
     .main-img {
         max-width: 90%;
         position: relative;
-        right: -15px;
+        right: -39px;
     }
+}
+@media (max-width: 426px) {
+        .main-img{
+            position: relative;
+            right: -18px;
+        }
 }
 
 /* About section */
 
 .about-sec {
-    padding: 100px 0;
+    /* padding: 100px 0; */
     background-color: #f9f9f9;
-    margin-top: -200px;
+    margin-top: 65px;
 }
 
 .title {
     text-align: center;
+    margin-top: 30px;
 }
 
 .about-row {
@@ -339,7 +355,7 @@ header {
 .small-imgs {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 5px;
     max-height: 222px;
     max-width: 222px;
 }
@@ -387,8 +403,6 @@ header {
     font-weight: 600;
 }
 
-
-
 .primary-btn {
     display: inline-block;
     padding: 12px 24px;
@@ -407,6 +421,23 @@ header {
         flex-direction: column;
     }
 
+    @media screen and ( max-width : 557px ) {
+    .about-para{
+    font-size: 17px;
+}
+   
+ .small-imgs {
+        /* flex-direction: row; */
+        max-width: 163px;
+    }
+}
+
+    @media screen and ( max-width : 375px ) {
+    .about-para-p {
+    font-size: 23px;
+}
+}
+
     .col-50 {
         max-width: 100%;
     }
@@ -417,42 +448,8 @@ header {
 
     .small-imgs {
         flex-direction: row;
-        /* max-width: 168px; */
     }
-}
-    @media (max-width: 557px) {
-     .banner-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-
-.hero-content{
-    text-align: center;
-}
-
-  .about-para {
-    font-size: 17px;
-}
-
-@media screen and ( max-width : 375px ) {
-    .about-para-p {
-    font-size: 23px;
-}
-}
-
- .small-imgs {
-        /* flex-direction: row; */
-        max-width: 168px;
-    }
-  .main-heading {
-    font-size: 30px;
-    font-weight: 400;
-    margin-bottom: 76px;
-
-}
-   
 }
 
 /* Our Services Section */
@@ -460,7 +457,7 @@ header {
 .services-sec {
     padding: 80px 0;
     background-color: #f8f8f8;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 
 .title {

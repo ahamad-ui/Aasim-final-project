@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+                                    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -92,7 +92,7 @@ header {
 .nav-links:hover::after {
     width: 100%;
 }
-.nav-collapse>ul:hover  .afridi{
+.nav-links:hover{
     color:  #7BC043;
 }
 
@@ -174,6 +174,14 @@ header {
     }
 }
 
+@media (max-width: 768px) {
+
+    .nav-logo img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
 /* banner section */
 
 
@@ -192,6 +200,8 @@ header {
   padding: 0 15px;
 }
 .banner{
+     width: 100vw; /* Full viewport width */
+  margin-left: calc(-50vw + 50%);
   background-color: #2AA7FF30;
   display: flex;
   justify-content: center;
@@ -236,6 +246,12 @@ header {
   .col-6{
     width: 70%;
   }
+}
+
+@media screen and  ( max-width : 768px) {
+    .booking-sec{
+        margin-top: 98px;
+    }
 }
 
 @media screen and ( max-width : 426px ) {
@@ -510,6 +526,7 @@ input[type="radio"] {
 
 .btn {
     display: flex;
+    /* justify-content: center; */
     gap: 31px;
     margin-top: 50px;
 }
@@ -542,9 +559,10 @@ input[type="radio"] {
 
 
 @media (max-width: 1250px) {
-   .phone-input{
+   /* .phone-input{
     display: block;
-   }
+   } */
+  
     }
 @media (max-width: 1025px) {
     .form-wrapper {
@@ -564,12 +582,20 @@ input[type="radio"] {
     }
 }
 
+
+
 @media (max-width: 576px) {
 
     .content h2 {
         font-size: 25px;
         line-height: 30px;
     }
+     .btn{
+        display: flex;
+        justify-content: center;
+        gap: 31px;
+        margin-top: 50px;
+     }
 
     
 .col-content p{
@@ -593,8 +619,8 @@ input[type="radio"] {
     .cool-button {
         margin: auto;
         width: 120px;
-        height: 40px;
-        margin-top: 15px;
+        height: 45px;
+        /* margin-top: 15px; */
     }
 
     .bg1, .bg2, .bg3 {

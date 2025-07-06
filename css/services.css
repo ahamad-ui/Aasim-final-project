@@ -91,7 +91,7 @@ header {
 .nav-links:hover::after {
     width: 100%;
 }
-.nav-collapse>ul:hover  .afridi{
+.nav-links:hover {
     color:  #7BC043;
 }
 
