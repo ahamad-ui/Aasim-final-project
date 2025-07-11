@@ -24,7 +24,8 @@ body {
 
 header {
     background-color: #F9F9F9;
-    height: 123px;
+    /* height: 123px; */
+    height: auto;
     position: fixed;
     width: 100%;
     top: 0;
@@ -416,10 +417,30 @@ header {
     text-wrap: nowrap;
 }
 
+
+
+
+
 /* Responsive */
-@media (max-width: 768px) {
+@media screen and (max-width : 1024px) {
+     .small-imgs {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    max-height: 222px;
+    max-width: 191px;
+}
+}
+
+@media screen and ( max-width :426px ) {
+     .small-imgs{
+        max-width: 157px;
+     }
+}
+ @media (max-width: 768px) {
     .about-row {
         flex-direction: column;
+        margin-top: -55px;
     }
 
     @media screen and ( max-width : 557px ) {
@@ -428,8 +449,7 @@ header {
 }
    
  .small-imgs {
-        /* flex-direction: row; */
-        max-width: 163px;
+        max-width: 153px;
     }
 }
 
@@ -437,6 +457,10 @@ header {
     .about-para-p {
     font-size: 23px;
 }
+.small-imgs {
+        max-width: 115px;
+    }
+
 }
 
     .col-50 {
@@ -451,7 +475,7 @@ header {
         flex-direction: row;
     }
 
-}
+}  
 
 /* Our Services Section */
 
@@ -784,6 +808,7 @@ header {
     .doctor-card {
         width: 90%;
         max-width: 300px;
+        margin-top: -50px;
     }
 }
 
@@ -931,6 +956,7 @@ header {
     background: #f9f9f9;
     padding: 40px 20px;
     font-family: sans-serif;
+    margin-top: -40px;
 }
 
 .footer-wrapper {

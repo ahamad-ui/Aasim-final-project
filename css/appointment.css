@@ -32,7 +32,8 @@ body {
 
 header {
     background-color: #F9F9F9;
-    height: fit-content;
+    /* height: fit-content; */
+    height: auto;
     position: fixed;
     padding: 15px 0;
     width: 100%;
