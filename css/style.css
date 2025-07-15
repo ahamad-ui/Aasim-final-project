@@ -130,7 +130,7 @@ header {
 @media (max-width: 1024px) {
     .nav-collapse {
         position: absolute;
-        top: 123px;
+        top: 97px;
         right: 0;
         background-color: #F9F9F9;
         flex-direction: column;
@@ -264,6 +264,8 @@ header {
     font-weight: 500;
     line-height: 1.4;
 }
+
+
 }
 
 
@@ -343,23 +345,30 @@ header {
 .image-grid {
     position: relative;
     display: inline-block;
-    width: 100%;
-    max-width: 558px;
+    /* width: 100%; */
+    max-width: 90%;
+    margin: 0 auto;
+    /* max-width: 558px; */
 }
 
 .large-img {
     display: block;
     max-width: 558px;
-    max-height: 550px;
+    margin: 0 auto;
+    max-width: 90%;
+    /* max-height: 550px; */
     flex: 2;
 }
 
 .small-imgs {
     position: absolute;
     bottom: 0;
-    right: 5px;
-    max-height: 222px;
-    max-width: 222px;
+    right: 13px;
+    border: 10px solid white;
+    border-radius: 15px;
+
+    /* max-height: 222px; */
+    max-width: 50%;
 }
 
 
@@ -379,7 +388,7 @@ header {
 .main-heading {
     font-size: 40px;
     font-weight: 400;
-    margin-bottom: 109px;
+    /* margin-bottom: 109px; */
     line-height: 1.4;
 }
 
@@ -423,43 +432,46 @@ header {
 
 /* Responsive */
 @media screen and (max-width : 1024px) {
-     .small-imgs {
+     /* .small-imgs {
     position: absolute;
     bottom: 0;
-    right: 5px;
-    max-height: 222px;
-    max-width: 191px;
+    right: 5px; */
+    /* max-height: 222px; */
+    /* max-width: 50%px; */
 }
-}
+/* } */
 
-@media screen and ( max-width :426px ) {
-     .small-imgs{
-        max-width: 157px;
-     }
-}
+
  @media (max-width: 768px) {
     .about-row {
         flex-direction: column;
         margin-top: -55px;
     }
 
+    .main-heading {
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 109px;
+    line-height: 1.4;
+}
+
     @media screen and ( max-width : 557px ) {
     .about-para{
     font-size: 17px;
 }
    
- .small-imgs {
+ /* .small-imgs {
         max-width: 153px;
-    }
+    } */
 }
 
     @media screen and ( max-width : 375px ) {
     .about-para-p {
     font-size: 23px;
 }
-.small-imgs {
+/* .small-imgs {
         max-width: 115px;
-    }
+    } */
 
 }
 
@@ -808,14 +820,14 @@ header {
     .doctor-card {
         width: 90%;
         max-width: 300px;
-        margin-top: -50px;
+        /* margin-top: -50px; */
     }
 }
 
 /* Our Reviews Section */
 
 .testimonials {
-    padding: 80px 0;
+    padding: 50px 0;
     background-color: #f9f9f9;
 }
 
@@ -861,7 +873,7 @@ header {
 .testimonial-text {
     color: #555;
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .stars {

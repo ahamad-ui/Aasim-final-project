@@ -133,7 +133,7 @@ header {
 @media (max-width: 1024px) {
     .nav-collapse {
         position: absolute;
-        top: 123px;
+        top: 98px;
         right: 0;
         background-color: #F9F9F9;
         flex-direction: column;
@@ -569,6 +569,7 @@ input[type="radio"] {
     .form-wrapper {
         flex-direction: column;
         gap: 30px;
+        align-items: center;
     }
 
     .form-col,

@@ -128,7 +128,7 @@ header {
 @media (max-width: 1024px) {
     .nav-collapse {
         position: absolute;
-        top: 123px;
+        top: 98px;
         right: 0;
         background-color: #F9F9F9;
         flex-direction: column;
@@ -193,8 +193,8 @@ header {
 }
 
 .col-50 {
-    /* flex: 0 0 48%; */
-    max-width: 48%;
+    flex: 0 0 48%;
+    max-width: 50%;
 }
 
 
@@ -202,24 +202,30 @@ header {
     position: relative;
     display: inline-block;
     width: 100%;
-    max-width: 558px;
+    max-width: 98%;
+    margin: 0 auto;
+    /* max-width: 558px; */
 }
 
 .large-img {
     display: block;
     max-width: 558px;
-    max-height: 550px;
+    /* max-height: 550px; */
     flex: 2;
+    margin: 0 auto;
+    max-width: 98%;
 }
 
 .small-imgs {
     position: absolute;
     bottom: 0;
-    right: 0;
-    max-height: 222px;
-    max-width: 222px;
-}
+    right: 2px;
+    border: 10px solid white;
+    border-radius: 15px;
 
+    /* max-height: 222px; */
+    max-width: 50%;
+}
 
 .image-grid img {
     width: 100%;
@@ -276,20 +282,20 @@ header {
 }
 
 /* Responsive */
-@media screen and (max-width : 1024px) {
+/* @media screen and (max-width : 1024px) {
      .small-imgs {
     position: absolute;
     bottom: 0;
     right: 5px;
     max-height: 222px;
-    max-width: 191px;
+    max-width: 222px;
 }
-}
+} */
 
 @media screen and ( max-width :426px ) {
-     .small-imgs{
+     /* .small-imgs{
         max-width: 136px;
-     }
+     } */
 }
  @media (max-width: 768px) {
     .about-row {
@@ -297,27 +303,27 @@ header {
         margin-top: -55px;
     }
 
-    .small-imgs{
+    /* .small-imgs{
         max-width: 222px;
-    }
+    } */
 
     @media screen and ( max-width : 557px ) {
     .about-para{
     font-size: 17px;
 }
    
- .small-imgs {
+ /* .small-imgs {
         max-width: 157px;
-    }
+    } */
 }
 
     @media screen and ( max-width : 375px ) {
     .about-para-p {
     font-size: 23px;
 }
-.small-imgs {
-        max-width: 114px;
-    }
+/* .small-imgs {
+        max-width: 113px;
+    } */
 
 }
 
@@ -438,7 +444,7 @@ header {
   /* our reviews section */
 
 .testimonials {
-    padding: 80px 0;
+    padding: 50px 0;
     background-color: #f9f9f9;
     margin-top: -50px;
 }
