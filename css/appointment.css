@@ -242,10 +242,10 @@ header {
   .banner{
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 20px;
+    gap: 35px;
   }
   .col-6{
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -253,6 +253,14 @@ header {
     .booking-sec{
         margin-top: 98px;
     }
+
+    .your-health>h3 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #274760;
+    max-width: 550px;
+    width: 100%;
+}
 }
 
 @media screen and ( max-width : 426px ) {
@@ -331,6 +339,7 @@ css Copy Edit .bg-wrapper {
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
+    padding-top: 50px;
 }
 
 .form-col,
@@ -580,9 +589,11 @@ input[type="radio"] {
 
     .form-col {
         padding-right: 0;
-        margin-top: 15px;
+        /* padding-top: 30px; */
     }
 }
+
+
 
 
 

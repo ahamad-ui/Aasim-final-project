@@ -314,6 +314,7 @@ header {
 .hfm-text {
     flex: 1;
     min-width: 300px;
+    margin-top: -70px;
 }
 
 .hfm-text h2 {
