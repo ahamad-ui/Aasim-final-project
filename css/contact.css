@@ -202,7 +202,7 @@ header {
   /* margin-top: 127px; */
 }
 
-.right>h2 {
+.right>h1 {
   font-size: 53px;
   font-weight: 700;
   color: #274760;
@@ -251,7 +251,7 @@ header {
 }
 
 @media screen and (max-width : 426px) {
-  .right>h2 {
+  .right>h1 {
     font-size: 46px;
   }
 
@@ -443,7 +443,8 @@ span {
 }
 
 .thumb{
-   background-color:  #61ce70;;
+   background-color:  #61ce70;
+   text-wrap: nowrap;
 }
 
 .doc-action button {
@@ -505,6 +506,7 @@ span {
   font-size: 14px;
   border: none;
   border-radius: 8px;
+  text-wrap: nowrap;
   /* cursor: pointer; */
 }
 
@@ -654,7 +656,7 @@ span {
   .features li {
     display: flex;
     align-items: start;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 12px;
     font-size: 14px;
     color: #002d72;
