@@ -12,7 +12,6 @@
     height: 100vh;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -68,10 +67,10 @@ header {
 .nav-links {
     position: relative;
     text-decoration: none;
-    text-wrap: nowrap;
     color: #333;
     font-weight: 500;
     transition: color 0.3s ease;
+    text-wrap: nowrap;
 }
 
 .nav-links::after {
@@ -92,9 +91,12 @@ header {
 .nav-links:hover::after {
     width: 100%;
 }
-.nav-links:hover{
+
+.nav-links:hover {
     color:  #7BC043;
 }
+
+
 
 /* Button */
 .primary-btn {
@@ -128,7 +130,7 @@ header {
 @media (max-width: 1024px) {
     .nav-collapse {
         position: absolute;
-        top: 98px;
+        top: 97px;
         right: 0;
         background-color: #F9F9F9;
         flex-direction: column;
@@ -172,6 +174,7 @@ header {
 
 
 
+/* about sec */
 
 .about-sec {
     padding: 100px 0;
@@ -201,26 +204,29 @@ header {
 .image-grid {
     position: relative;
     display: inline-block;
-    width: 100%;
-    max-width: 98%;
+    /* width: 100%; */
+    max-width: 100%;
     margin: 0 auto;
     /* max-width: 558px; */
 }
 
 .large-img {
+    position: relative;
     display: block;
     max-width: 558px;
     /* max-height: 550px; */
     flex: 2;
     margin: 0 auto;
-    max-width: 98%;
+    max-width: 95%;
 }
 
 .small-imgs {
     position: absolute;
     bottom: 0;
-    right: 2px;
-    border: 10px solid white;
+    right: 3px;
+    padding: 7px;
+    background: white;
+    /* border: 10px solid white; */
     border-radius: 15px;
 
     /* max-height: 222px; */
@@ -235,7 +241,7 @@ header {
 
 /* Content Styles */
 .sub-heading {
-    font-size: 25px;
+    font-size: 35px;
     color: #252525;
     margin-bottom: 12px;
 }
@@ -260,7 +266,7 @@ header {
 }
 
 .about-para-p {
-    font-size: 32px;
+    font-size: 23px;
 }
 
 .phone-number {
@@ -326,7 +332,7 @@ header {
 
     @media screen and ( max-width : 375px ) {
     .about-para-p {
-    font-size: 23px;
+    font-size: 20px;
 }
 /* .small-imgs {
         max-width: 113px;
@@ -398,6 +404,19 @@ header {
     margin-bottom: 16px;
 }
 
+
+.sub{
+    font-size: 27px;
+    color: #252525;
+    margin-bottom: 12px;
+}
+
+.main {
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 109px;
+    line-height: 1.4;
+}
 .doctor-name {
     font-size: 18px;
     font-weight: 600;
@@ -494,6 +513,19 @@ header {
     font-size: 16px;
     font-weight: 600;
     margin: 0;
+}
+
+.sub-head {
+    font-size: 27px;
+    color: #252525;
+    margin-bottom: 12px;
+}
+
+.main-head {
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 109px;
+    line-height: 1.4;
 }
 
 .testimonial-text {

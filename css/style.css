@@ -355,6 +355,7 @@ header {
 }
 
 .large-img {
+    position: relative;
     display: block;
     max-width: 558px;
     margin: 0 auto;
@@ -365,9 +366,12 @@ header {
 
 .small-imgs {
     position: absolute;
+
     bottom: 0;
-    right: 13px;
-    border: 10px solid white;
+    right: -1px;
+    padding: 7px;
+    background: white;
+    /* border: 10px solid white; */
     border-radius: 15px;
 
     /* max-height: 222px; */
@@ -389,7 +393,7 @@ header {
 }
 
 .main-heading {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     /* margin-bottom: 109px; */
     line-height: 1.4;
@@ -408,7 +412,7 @@ header {
 }
 
 .about-para-p {
-    font-size: 32px;
+    font-size: 23px;
 }
 
 .phone-number {
@@ -434,15 +438,7 @@ header {
 
 
 /* Responsive */
-@media screen and (max-width : 1024px) {
-     /* .small-imgs {
-    position: absolute;
-    bottom: 0;
-    right: 5px; */
-    /* max-height: 222px; */
-    /* max-width: 50%px; */
-}
-/* } */
+
 
 
  @media (max-width: 768px) {
@@ -452,7 +448,7 @@ header {
     }
 
     .main-heading {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 94px;
     line-height: 1.4;
@@ -470,7 +466,7 @@ header {
 
     @media screen and ( max-width : 375px ) {
     .about-para-p {
-    font-size: 23px;
+    font-size: 20px;
 }
 /* .small-imgs {
         max-width: 115px;
@@ -497,7 +493,7 @@ header {
 .services-sec {
     padding: 80px 0;
     background-color: #f8f8f8;
-    margin-top: -70px;
+    margin-top: -50px;
 }
 
 .title {
@@ -620,7 +616,7 @@ header {
 }
 
 .hfm-text h2 {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
     margin-bottom: 22px;
 }
@@ -890,7 +886,7 @@ header {
 @media screen and ( max-width :576px ) {
     .testimonial-title {
     text-align: center;
-    margin-top: -65px;
+    margin-top: -60px;
 }
 }
 
@@ -1014,6 +1010,10 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.footer-box>ul>li a :hover{
+    color:  #5cbe4a;;
 }
 
 
