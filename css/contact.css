@@ -305,6 +305,11 @@ header {
   cursor: pointer;
   font-size: 16px;
 }
+.banner2-search-btn :hover{
+  background-color: black;
+}
+
+ 
 
 .bottom-row {
   display: flex;
@@ -459,6 +464,12 @@ span {
   font-weight: 500;
 }
 
+.book-free :hover{
+  background-color: black;
+}
+
+
+
 
 
 
@@ -521,6 +532,13 @@ span {
   color: #fff;
 }
 
+.actions :hover{
+background-color: black;
+}
+.locations :hover{
+  background-color: white;
+}
+
 
 
 
@@ -556,6 +574,10 @@ span {
   font-weight: bold;
   border-radius: 4px;
   text-decoration: none;
+}
+
+.limit-period :hover{
+  background-color:  #0b6b95;
 }
 
 .hashtag {
@@ -643,7 +665,7 @@ span {
     display: flex;
     align-items: center;
     gap: 6px;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 10px;
     }
 }
@@ -721,129 +743,159 @@ span {
 
 /* Footer Section */
 
+
 .footer {
-  background: #f9f9f9;
-  padding: 40px 20px;
-  font-family: sans-serif;
-  /* margin-top: 70px; */
+    background: #f9f9f9;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    margin-top: -9px;
 }
 
 .footer-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 1300px;
-  margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .footer-box {
-  color: #333;
+    color: #333;
 }
 
 .col-20 {
-  flex: 1 1 20%;
-  min-width: 200px;
+    flex: 1 1 20%;
+    min-width: 200px;
 }
 
 .footer-box h4 {
-  color: #5cbe4a;
-  margin-bottom: 12px;
-  font-size: 16px;
-  font-weight: 600;
+    color: #5cbe4a;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .footer-box p,
 .footer-box li,
 .footer-box a {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
-  text-decoration: none;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    text-decoration: none;
 }
 
 .footer-box ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
+.footer-box>ul>li a :hover{
+    color:  #5cbe4a;;
+}
+
+
+
 .footer-box ul li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .newsletter-form {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 .newsletter-form input {
-  padding: 10px;
-  flex: 1 1 70%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    padding: 10px;
+    flex: 1 1 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .newsletter-form button {
-  background-color: #5cbe4a;
-  color: white;
-  border: none;
-  padding: 10px 12px;
-  border-radius: 4px;
-  cursor: pointer;
-  flex: 1 1 25%;
+    background-color: #5cbe4a;
+    color: white;
+    /* width: 100%; */
+    /* display: inline-block; */
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1 1 25%;
+}
+   .f-button:hover{
+    background-color: black;
 }
 
+.f-button{
+   background-color: #5cbe4a;
+    color: white;
+    text-align: center;
+    /* width: 100%; */
+    /* display: inline-block; */
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1 1 25%;
+}
+
+
 .social-icons {
-  display: flex;
-  gap: 12px;
-  margin-top: 10px;
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
 }
 
 .social-icons a {
-  font-size: 18px;
-  color: #000;
-  transition: color 0.3s ease;
+    font-size: 18px;
+    color: #000;
+    transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #5cbe4a;
+    color: #5cbe4a;
 }
 
 .footer-bottom {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 13px;
-  color: #888;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #888;
 }
 
 /* Responsive */
 @media (max-width: 991px) {
-  .col-20 {
-    flex: 1 1 45%;
-  }
+    .col-20 {
+        flex: 1 1 45%;
+    }
 }
 
 @media (max-width: 576px) {
-  .col-20 {
-    flex: 1 1 100%;
-    text-align: center;
-  }
+    .col-20 {
+        flex: 1 1 100%;
+        text-align: center;
+    }
 
-  .newsletter-form {
-    flex-direction: column;
-  }
+    .footer{
+        margin-top: -40px;
+    }
 
-  .newsletter-form input,
-  .newsletter-form button {
-    width: 100%;
-  }
+    .newsletter-form {
+        flex-direction: column;
+    }
 
-  .social-icons {
-    justify-content: center;
-  }
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 576px) {

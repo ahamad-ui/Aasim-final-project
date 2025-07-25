@@ -109,6 +109,9 @@ header {
     text-wrap: nowrap;
 }
 
+.nav-btn :hover{
+    background-color: black;
+}
 /* Hamburger Toggler */
 .nav-toggler {
     display: none;
@@ -707,8 +710,24 @@ input[type="radio"] {
 }
 
 .newsletter-form button {
-    background-color: #5cbe4a;
+    background-color: #7BC043;
     color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1 1 25%;
+}
+.f-button:hover{
+    background-color: black;
+}
+
+.f-button{
+   background-color: #7BC043;
+    color:  white;
+    text-align: center;
+    /* width: 100%; */
+    /* display: inline-block; */
     border: none;
     padding: 10px 12px;
     border-radius: 4px;

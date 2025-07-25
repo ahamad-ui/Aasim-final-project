@@ -797,7 +797,7 @@ header {
 }
 
 .btn-appointment:hover {
-    background-color: #58a038;
+    background-color: black;
 }
 
 .btn-wrapper {
@@ -1074,6 +1074,26 @@ header {
     cursor: pointer;
     flex: 1 1 25%;
 }
+
+.f-button:hover{
+    background-color: black;
+}
+
+.f-button{
+   background-color: #5cbe4a;
+    color: white;
+    text-align: center;
+    /* width: 100%; */
+    /* display: inline-block; */
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1 1 25%;
+}
+/* .submit :hover{
+    background-color: black;
+} */
 
 .social-icons {
     display: flex;
