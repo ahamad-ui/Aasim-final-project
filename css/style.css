@@ -881,6 +881,7 @@ header {
     color: #65b741;
     font-size: 18px;
     letter-spacing: 2px;
+    margin-top: -30px;
 }
 
 @media screen and ( max-width :576px ) {
@@ -896,7 +897,8 @@ header {
 
 .testimonial-card {
     background: #fff;
-    min-height: 438px;
+    /* min-height: 438px; */
+    min-height: 100%;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
