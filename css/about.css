@@ -459,7 +459,7 @@ header {
     .team-grid {
         /* flex-direction: column; */
         align-items: center;
-        margin-top: -60px;
+        margin-top: -75px;
     }
 
     .doctor-card {
@@ -694,6 +694,13 @@ header {
 
   .f-button:hover{
     background-color: black;
+}
+
+.footer-box ul li a:hover{
+    color:  #5cbe4a;
+}
+.footer-3 :hover{
+    color: #5cbe4a;
 }
 
 .f-button{

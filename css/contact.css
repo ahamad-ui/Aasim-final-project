@@ -316,6 +316,7 @@ header {
   gap: 15px;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 10px;
 }
 
 .bottom-row label {
@@ -857,6 +858,12 @@ background-color: black;
 }
 
 .social-icons a:hover {
+    color: #5cbe4a;
+}
+.footer-box ul li a:hover{
+    color:  #5cbe4a;
+}
+.footer-3 :hover{
     color: #5cbe4a;
 }
 

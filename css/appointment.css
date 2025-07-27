@@ -750,6 +750,12 @@ input[type="radio"] {
 .social-icons a:hover {
     color: #5cbe4a;
 }
+.footer-box ul li a:hover{
+    color:  #5cbe4a;
+}
+.footer-3 :hover{
+    color: #5cbe4a;
+}
 
 .footer-bottom {
     text-align: center;
