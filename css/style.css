@@ -199,7 +199,7 @@ header {
 }
 
 .hero-content .title1 {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 500;
     line-height: 1.4;
 }
@@ -235,24 +235,30 @@ header {
     position: relative;
     display: inline-block;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .main-img {
-    width: 100%;
+    position: relative;
     max-width: 640px;
-    max-height: 550px;
+    max-width: 95%;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 640px; */
+    /* max-height: 550px; */
     border-radius: 16px;
     display: block;
 }
 
 .circle-img {
     position: absolute;
-    left: -183px;
-    bottom: -9px;
-    max-height: 331px;
-    max-width: 331px;
+    left: -40px;
+    bottom: -22px;
+    /* max-height: 331px; */
+    max-width: 51%;
     border-radius: 50%;
-    border: 6px solid #fff;
+    background-color: white;
+    /* border: 6px solid #fff; */
 }
 
 @media (max-width: 1024px) {
@@ -298,24 +304,29 @@ header {
         text-align: center;
     }
 
-    .circle-img {
-        left: -10px;
-        bottom: -19px;
-        width: 40%;
+     .circle-img {
+    
+       max-width: 46%;
     }
 
     .main-img {
         max-width: 90%;
         position: relative;
-        right: -39px;
-    }
+        right: -12px;
+    } 
 }
-@media (max-width: 426px) {
+ @media (max-width: 426px) {
         .main-img{
             position: relative;
-            right: -18px;
+            max-width: 90%;
+            right: 0px;
         }
-}
+
+        .circle-img{
+            position: absolute;
+            left: -6px;
+        }
+} 
 
 /* About section */
 
@@ -459,18 +470,14 @@ header {
     font-size: 17px;
 }
    
- /* .small-imgs {
-        max-width: 153px;
-    } */
+ 
 }
 
     @media screen and ( max-width : 375px ) {
     .about-para-p {
     font-size: 20px;
 }
-/* .small-imgs {
-        max-width: 115px;
-    } */
+
 
 }
 
@@ -1038,6 +1045,7 @@ header {
     gap: 20px;
     max-width: 1300px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .footer-box {
